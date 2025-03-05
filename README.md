@@ -18,6 +18,7 @@ Features include:
 
 - Now in GUI!
 
+![image](https://github.com/user-attachments/assets/25b46973-1da1-4466-a76a-a174c305f3bc)
 
 # Usage
 
