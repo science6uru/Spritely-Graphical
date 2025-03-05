@@ -17,3 +17,42 @@ Features include:
 - Customizable grid specifications
 
 - Now in GUI!
+
+
+# Usage
+
+### Step 0.5:
+
+It makes things easier to set up a venv for this part.
+
+### Step 1:
+
+`pip install pillow`
+
+`pip install tk`
+
+
+### Step 2:
+
+You should be all set now. You can run the script with
+
+`python spritely_gui.py`
+
+
+The only reason you'd need to continue from here is if you want to make an executable file.
+
+# Executable
+
+### Step 1: 
+
+Do everything under Usage first.
+
+### Step 2:
+
+`pip install pyinstaller`
+
+### Step 3:
+
+`pyinstaller --onefile spritely_gui.py`
+
+Your executable file will be under a folder named 'dist' under your project directory.
