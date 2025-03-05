@@ -23,20 +23,31 @@ Features include:
 
 ### Step 0.5:
 
-It makes things easier to set up a venv for this part.
+Download spritely_gui.py from this repo, and put it in a folder. cd to the folder with
+```sh
+cd {YOUR FOLDER PATH}
+```
+
+It makes things easier to [set up a venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) for this part.
 
 ### Step 1:
 
-`pip install pillow`
+```sh
+pip install pillow
+```
 
-`pip install tk`
+```sh
+pip install tk
+```
 
 
 ### Step 2:
 
 You should be all set now. You can run the script with
 
-`python spritely_gui.py`
+```sh
+python spritely_gui.py
+```
 
 
 The only reason you'd need to continue from here is if you want to make an executable file.
@@ -49,10 +60,14 @@ Do everything under Usage first.
 
 ### Step 2:
 
-`pip install pyinstaller`
+```sh
+pip install pyinstaller
+```
 
 ### Step 3:
 
-`pyinstaller --onefile spritely_gui.py`
+```sh
+pyinstaller --onefile spritely_gui.py
+```
 
 Your executable file will be under a folder named 'dist' under your project directory.
