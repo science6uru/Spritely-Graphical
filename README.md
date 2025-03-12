@@ -12,7 +12,7 @@ Features include:
 
 - Smart trimming (crops all images evenly based on combined maximum dimensions)
 
-- Previewing spritesheet as a .GIF File
+- Previewing generated spritesheet as a .GIF File
 
 - Customizable grid specifications
 
