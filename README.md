@@ -39,7 +39,7 @@ Download spritely_gui.py from this repo, and put it in a folder. cd to the folde
 cd {YOUR FOLDER PATH}
 ```
 
-It makes things easier to [set up a venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) for this part.
+It makes things easier to [set up a venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) for this next part.
 
 ### Step 1:
 
