@@ -6,15 +6,25 @@ Updated graphical version of the CLI tool Spritely.
 <p align="center">
 Spritely is a free & open-source tool to completely automate your spritesheet creation workflow. 
 
+Changes and Fixes from Spritely 1.0:
+
+- Switched from ImageMagick to Pillow for major performance gains, now renders an 8x8 in under a second on my laptop. (It used to be around one minute with ImageMagick)
+
+- Fixed gif transparency-related bugs.
+
+- Removed render to APNG due to lack of support on most systems and honestly I didn't want to deal with it.
+
+- New GUI app.
+
 Features include:
 
-- Evenly remove extra images from a large set, so it can fit on a smaller spritesheet
+- Evenly remove extra images from a large set, so it can fit on a smaller spritesheet.
 
 - Smart trimming (crops all images evenly based on combined maximum dimensions)
 
-- Previewing generated spritesheet as a .GIF File
+- Previewing generated spritesheet as a .GIF File.
 
-- Customizable grid specifications
+- Customizable grid specifications.
 
 - Now in GUI!
 
